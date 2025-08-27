@@ -6,17 +6,18 @@ const dc = ["superman" , "flash" , "batman"]
 // console.log(marvel);
 // console.log(marvel[3][2]);
 
-// const allheros = marvel.concat(dc)
+// const allheros = marvel.concat(dc)     //create a new array
 
 // console.log(allheros);
 
-// const allNewHero = [...marvel, ...dc]
+// const allNewHero = [...marvel, ...dc]      //spread oprator
 // console.log(allNewHero);
 
 
 const myNewArr =  [1, 2, 3, [4, 5], 6, 7, [8, 9, [3, 2]]]
 
-const anotherArr= myNewArr.flat(3)
+// const anotherArr= myNewArr.flat(Infinity)
+const anotherArr= myNewArr.flat(3)       // to create a new array with all sub array into one array
 
 // console.log(myNewArr);
 // console.log(anotherArr);

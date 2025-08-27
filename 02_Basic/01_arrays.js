@@ -7,6 +7,9 @@ const myArr = [0,1,2,3,4,5]
 // myArr.pop()
 // myArr.shift()     //delete first value
 // console.log(myArr.includes(4));   //value available or not
+// console.log(myArr.indexOf(4));   // indexing
+// const my=myArr.join()     // change array type into string
+
 
 console.log("A" ,myArr);
 

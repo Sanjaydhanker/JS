@@ -16,7 +16,7 @@ const user={
 
 user.age=21    //change value
 // Object.freeze(user)
-user.age=22   //this will not change the value of age because of Object.freeze() function
+// user.age=22   //this will not change the value of age because of Object.freeze() function
 
 
 // console.log(user.name);  // dont use this
