@@ -1,0 +1,84 @@
+JavaScript Interview Questions – Day 1 (Basic Level)
+1. What is JavaScript, and why is it used?
+
+Answer:
+JavaScript is a high-level, interpreted programming language used to make websites interactive, dynamic, and responsive.
+
+Runs in the browser as well as on the server (via Node.js).
+
+Handles events, form validation, animations, and API requests.
+
+It’s the core language for the MERN stack.
+
+2. What are the different data types in JavaScript?
+
+Answer:
+JavaScript has 8 main data types:
+Primitive Types:
+
+String → "Hello"
+
+Number → 25
+
+Boolean → true / false
+
+Null → null
+
+Undefined → let x;
+
+Symbol → Symbol("id")
+
+BigInt → 12345678901234567890n
+Non-Primitive Type:
+
+Object → { name: "Sanjay" }
+
+3. What is the difference between var, let, and const?
+Feature	var	let	const
+Scope	Function-scoped	Block-scoped	Block-scoped
+Re-declare	✅ Allowed	❌ Not allowed	❌ Not allowed
+Re-assign	✅ Allowed	✅ Allowed	❌ Not allowed
+Hoisting	✅ Hoisted (undefined)	✅ Hoisted (but TDZ*)	✅ Hoisted (but TDZ*)
+
+TDZ = Temporal Dead Zone → Variable exists but can’t be used before declaration.
+
+4. What is the difference between == and === in JavaScript?
+
+Answer:
+
+== (Loose Equality): Compares values only → does type conversion.
+
+=== (Strict Equality): Compares values + data types.
+
+Example:
+
+console.log(5 == "5");   // true  (type conversion)
+console.log(5 === "5");  // false (different types)
+
+5. What are JavaScript functions?
+
+Answer:
+A function is a block of code that performs a specific task.
+
+Types of Functions:
+
+Function Declaration
+
+function greet() {
+  console.log("Hello, Sanjay!");
+}
+greet();
+
+
+Function Expression
+
+const greet = function() {
+  console.log("Hello, Sanjay!");
+}
+greet();
+
+
+Arrow Function (ES6)
+
+const greet = () => console.log("Hello, Sanjay!");
+greet();
